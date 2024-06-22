@@ -1,0 +1,23 @@
+h1{
+    text-align:center;
+    text-decoration: wavy red underline;
+    letter-spacing:7px;
+    font-family:Arial;
+}
+h3{
+    text-align:right;
+}
+p{
+    text-align:justify;
+    font-weight:500;
+    line-height:2.5;
+    font-size:20px;
+}
+h2{
+    font-weight:normal;
+    text-decoration: double blue overline;
+    font-family:Impact;
+}
+a{
+    text-decoration:none;
+}

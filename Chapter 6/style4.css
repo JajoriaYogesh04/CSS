@@ -1,0 +1,74 @@
+.box{
+    height: 100px;
+    width: 500px;
+    background-color: pink;
+    font-size: 20px;
+    text-align: center;
+
+    /* animation-name: yogesh;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-direction: normal; */ 
+
+    /* animation-name: colorAnimation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-direction: normal; */
+    
+    /* animation-name: widthAnimation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 10;
+    animation-direction: normal; */
+
+    /* animation: widthAnimation 10s linear 0s 10 normal; */
+
+    /* animation: merged 2s linear 0s 10 alternate; */
+
+    animation: percent 4s linear 0s 10 alternate;
+}
+
+@keyframes widthAnimation{
+    from{
+        width: 5px;
+    }
+    to{
+        width: 500px;
+    }
+}
+
+@keyframes yogesh{
+    from{font-size: 20px;}
+    to{font-size: 50px}
+}
+
+@keyframes colorAnimation{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+@keyframes merged{
+    from{
+        font-size: 20px;
+        background-color: red;
+    }
+    to{
+        font-size: 40px;
+        background-color: blue;
+    }
+}
+
+@keyframes percent{
+    0%{background-color: white;}
+    50%{background-color: red;}
+    100%{background-color: black;}
+}

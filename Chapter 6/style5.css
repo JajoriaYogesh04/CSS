@@ -1,0 +1,45 @@
+h1{
+    background-color: blue;
+    color: ghostwhite;
+    border: 2px solid red;
+}
+
+@media(width: 400px){
+    h1{
+        background-color: red;
+        color: yellow;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: deeppink;
+    }
+}
+
+@media(min-width: 500px){
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: darkgreen;
+    }
+}
+@media(max-width: 300px){
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: royalblue;
+    }
+}
+@media(min-width: 300px) and (max-width:400px){
+    h1{
+        background-color: black;
+    }
+}
+
+@media(orientation: landscape){
+    h1{
+        background-color: darkgoldenrod;
+        color: antiquewhite;
+    }
+}
+

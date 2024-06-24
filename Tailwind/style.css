@@ -5,3 +5,7 @@
 .box{
     @apply bg-purple-500 m-4 p-4 border-[5px] border-black rounded-full;
 }
+
+/* .border-black{
+    @apply border-red-500;
+} */
